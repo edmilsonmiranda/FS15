@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(38, 36, 36);
 
 }
 form{
     width: 300px;
-    background-color: white;
+    background-color: rgb(147, 38, 38);
     padding: 16px;
     position: absolute;
     top: 50%;
@@ -17,7 +17,7 @@ form{
     transform: translate(-50%, -50%);
     border-radius: 10px;
 }
-form label, form input{
+form label, form input, form select{
     width: 100%;
     display: block;
     margin-bottom: 10px;
@@ -26,4 +26,26 @@ form input{
     height: 40px;
     padding-left: 10px;
     border: 1px solid #333;
+}
+form input[type="radio"], form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+form .meia-label{
+display: inline;
+    width: 40%;
+}
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(38, 36, 36);
+    color: rgb(147, 38, 38);
+    border: 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+
 }

@@ -9,12 +9,42 @@
 </head>
 <body>
     <form action="">
-        <label for="Nome">Nome</label>
-        <input type="text" id="Nome" placeholder="Digite seu nome">
-        <label for="Email">Email</label>
-        <input type="email" id="Email" placeholder="Digite seu email">
-        <label for="Telefone">Telefone</label>
-        <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+        <select name="Marca de celular">
+            <option value="">Marca desejada</option>
+            <option value="xbox">Samsung</option>
+            <option value="ps5">Apple</option>
+            <option value="nsw">Motorola</option>
+        </select>
+        
+        <select name="Modelo">
+            <option value="">Escolha o modelo</option>
+            <option value="xbox">S20</option>
+            <option value="ps5">Iphone 14</option>
+            <option value="nsw">Moto G5</option>
+        </select>
+
+        <label for="Descrição">Descrição</label>
+        <input type="dec" id="descrição" placeholder="Produto sem Descrição">
+        
+        <label for="genero" class="meia-label">
+            <input type="radio" name="sexo"> Masculino
+            <input type="radio" name="sexo"> Feminino
+        </label>
+        
+        <label for="grau escolar">
+            <input type="checkbox" name="ensino médio"> Ensino médio
+        </label>
+        
+        <label for="graduacao">
+            <input type="checkbox" name="graduacao"> Graduação
+        </label>
+
+        <button type="submit">Próximo</button>
     </form>
+        
+        
+    
+        
+        
 </body>
 </html>
